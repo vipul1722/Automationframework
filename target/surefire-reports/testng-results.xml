@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37797" started-at="2021-01-13T08:13:14Z" finished-at="2021-01-13T08:13:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37797" started-at="2021-01-13T08:13:14Z" finished-at="2021-01-13T08:13:52Z">
+      <class name="Framework.rahulshetty.Homepage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Framework.rahulshetty.Homepage@703580bf]" name="initialize" is-config="true" duration-ms="4319" started-at="2021-01-13T08:13:14Z" finished-at="2021-01-13T08:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Framework.rahulshetty.Loginfunction@3e92efc3]" name="initialize" is-config="true" duration-ms="4079" started-at="2021-01-13T08:13:19Z" finished-at="2021-01-13T08:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Framework.rahulshetty.Homepage@703580bf]" name="test" duration-ms="14845" started-at="2021-01-13T08:13:23Z" finished-at="2021-01-13T08:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Framework.rahulshetty.Homepage@703580bf]" name="close" is-config="true" duration-ms="808" started-at="2021-01-13T08:13:51Z" finished-at="2021-01-13T08:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Framework.rahulshetty.Loginfunction@3e92efc3]" name="close" is-config="true" duration-ms="97" started-at="2021-01-13T08:13:52Z" finished-at="2021-01-13T08:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Framework.rahulshetty.Homepage -->
+      <class name="Framework.rahulshetty.Loginfunction">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Framework.rahulshetty.Loginfunction@3e92efc3]" name="test" duration-ms="10887" started-at="2021-01-13T08:13:38Z" data-provider="login" finished-at="2021-01-13T08:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aggarwal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vipul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Framework.rahulshetty.Loginfunction@3e92efc3]" name="test" duration-ms="2739" started-at="2021-01-13T08:13:49Z" data-provider="login" finished-at="2021-01-13T08:13:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhfkj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sljdhsku]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Framework.rahulshetty.Loginfunction -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

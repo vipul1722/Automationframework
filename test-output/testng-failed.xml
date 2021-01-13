@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Validating login functionality(failed)" parallel="tests">
+    <classes>
+      <class name="Framework.rahulshetty.Loginfunction">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Framework.rahulshetty.Loginfunction -->
+    </classes>
+  </test> <!-- Validating login functionality(failed) -->
+</suite> <!-- Failed suite [Suite] -->
