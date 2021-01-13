@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base {
 
@@ -29,7 +30,9 @@ public 	Properties prop;
 		
 		else if(browsername.equals("firefox"))
 		{
-			System.out.println("no test");
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\Hp\\eclipse-workspace\\appium\\geckodriver.exe");
+					 driver = new FirefoxDriver();		
+			
 		}
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
